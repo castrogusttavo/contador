@@ -1,0 +1,33 @@
+body {
+  background-color: #121212; /* Cor de fundo escura */
+  color: #e0e0e0; /* Cor do texto clara */
+  font-family: Arial, sans-serif;
+  height: 100vh; /* Para centralizar na tela */
+  display: flex; /* Usado para centralizar */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin: 0;
+}
+
+.counter {
+  font-size: 2em;
+  padding: 20px;
+  border: 1px solid #333; /* Borda escura */
+  border-radius: 10px;
+  display: flex; /* Para alinhamento de ícone e texto */
+  align-items: center;
+  background-color: #1f1f1f; /* Fundo da caixa */
+}
+
+.icon {
+  margin-right: 20px; /* Espaço entre ícone e texto */
+}
+
+.counter span {
+  margin: 0 10px; /* Espaço entre elementos */
+}
+
+.label {
+  font-size: 0.8em;
+  color: #aaaaaa; /* Cor do texto secundário */
+}
